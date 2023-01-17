@@ -1,0 +1,8 @@
+{
+  "name": "ad-weave-v3",
+  "version": "1.0.0",
+  "description": "Ticketing System for Ad-Lib",
+  "main": "index.js",
+  "author": "Lorenciano Dramayo",
+  "license": "MIT"
+}
