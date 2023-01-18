@@ -140,13 +140,13 @@ const Home = () => {
       <Layout className="site-layout">
         <Content
           style={{
-            margin: '0 16px',
+            margin: '16px',
           }}
         >
           <Typography.Title level={5}>
             Support Service Dashboard
           </Typography.Title>
-          <Divider />
+          <Divider style={{ margin: '16px 0'}}/>
           <div
             style={{
               padding: 24,
