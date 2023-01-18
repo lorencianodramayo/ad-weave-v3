@@ -35,7 +35,7 @@ function Login() {
 
   return (
     <Row style={loginContainer}>
-      <Col xs={24} md={12} lg={9} style={leftPanel}>
+      <Col xs={24} md={15} lg={11} xl={9} style={leftPanel}>
         <div style={imagePanel}>
           <img src={Logo} alt="smartly" />
         </div>
@@ -106,7 +106,7 @@ function Login() {
 
         {status && <Loader />}
       </Col>
-      <Col xs={0} md={12} lg={15} style={rightPanel} />
+      <Col xs={0} md={9} lg={13} xl={15} style={rightPanel} />
     </Row>
   );
 }
